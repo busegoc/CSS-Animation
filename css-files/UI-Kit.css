@@ -1,0 +1,90 @@
+body{
+    background-image: url(/Case-assets/bg.png);
+}
+p{
+    font-family: 'Inter';
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+
+}
+.logo{
+    position: relative;
+    margin: auto;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.crown-img{
+    width: 120px;
+}
+.components_container {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    font-family: 'Inter';
+  }
+  
+  .select_component {
+    display: grid;
+    align-items: center;
+    justify-content:initial;
+    background-color:rgba(255, 255, 255, 1);
+    border-radius: 10px;
+    width: 200px;
+  }
+  
+  select {
+    background-color: transparent;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    margin-right: 8px;
+  }
+  
+
+
+
+#datepicker{
+    position: absolute;
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+
+
+.ui-datepicker-title{
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, a.ui-button:active, .ui-button:active, .ui-button.ui-state-active:hover{
+    border: none;
+    background: #9C346B;
+    border-radius: 5px;
+}
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active{
+    border-radius: 5px;
+    color: #00000099;
+    
+
+}
+.form-switch .form-check-input:checked{
+    background-color: #9C346B;
+    width: 40px;
+    height: 22px;
+}
+.form-switch .form-check-input{
+    background-color: rgba(156, 52, 107, 0.2);
+    width: 40px;
+    height: 22px;
+}

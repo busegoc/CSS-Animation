@@ -1,0 +1,141 @@
+body{
+    background-image: url(/Case-assets/bg.png)
+}
+p{
+    background: #FFFFFF;
+    height: 19px;
+    width: 120px;
+    color:rgba(0, 0, 0, 0.6); 
+    margin-top: 10px;
+    margin-bottom: 0; 
+}
+.login-container{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.login-form-1{
+    padding: 5%;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+    background: #FFFFFF;
+    
+}
+.login-form-1 h3{
+    text-align: center;
+    color: rgba(156, 52, 107, 1);
+    background: #FFFFFF;
+    font-family: 'Inter';
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.login-form-2{
+    padding: 5%;
+    background: #FFFFFF;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+    
+}
+.login-form-2 h3{
+    text-align: center;
+    color: rgba(156, 52, 107, 1);
+    background: #FFFFFF;
+    font-family: 'Inter';
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.login-container form{
+    padding: 10%;
+    background:#FFFFFF ;
+}
+.btnSubmit
+{
+    width: 50%;
+    border-radius: 1rem;
+    padding: 1.5%;
+    border: none;
+    cursor: pointer;
+}
+.login-form-1 .btnSubmit{
+    font-weight: 600;
+    color: #fff;
+    background-color:rgba(156, 52, 107, 1);
+}
+.login-form-2 .btnSubmit{
+    font-weight: 600;
+    color: #fff;
+    background-color:rgba(156, 52, 107, 1);
+}
+.login-form-1 .ForgetPwd{
+    color: rgba(156, 52, 107, 1);
+    font-weight: 600;
+    text-decoration: none;
+    float: right;
+    background: #FFFFFF;
+    font-family: 'Inter';
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-right: 20px;
+    margin-bottom: 5px;
+    
+}
+
+.crown-img{
+    width: 80px;
+}
+
+.form-group{
+    background: #FFFFFF;
+}
+.form-control{
+    background: #FFFFFF;
+    height: 40px;
+    width: 400px;
+    left: 206px;
+    top: 455px;
+    border-radius: 5px;
+    margin-top:20px;
+    
+}
+label{
+    color: rgba(156, 52, 107, 1);
+    background: #FFFFFF;
+    
+}
+.form-check{
+    background: #FFFFFF;
+    margin: 0;
+
+}
+.btn-group{
+    top: 15px;
+}
+.login-button{
+    color: #FFFFFF;
+    position: absolute;
+    width: 400px;
+    height: 40px;
+    background: #9C346B;
+    border-radius: 5px;
+    border-color: #FFFFFF;
+    font-family: 'Inter';
+    top: 750px; 
+}
+.logo{
+    width: 91px;
+    height: 82px;
+    position: relative;
+    margin: auto;
+    margin-top: 50px;
+}
+.logo-renkli{
+    position: relative;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 5%;
+}
